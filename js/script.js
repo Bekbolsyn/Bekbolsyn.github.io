@@ -8,6 +8,8 @@ $(function(){
 	});
 });
 
+
+
 $(".des_item").not(":first").hide();
 $(".detail_services .item").click(function() {
 	$(".detail_services .item").removeClass("active").eq($(this).index()).addClass("active");
@@ -31,3 +33,28 @@ $(".detail_services .item").click(function() {
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+
+
+
+var tabNav = document.querySelector('.tab-nav');
+
+tabNav.addEventListener('click', function(e) {
+  tabNav.classList.toggle('is-active');
+  var current = e.target;
+
+  if (current.classList.contains('tab-nav__btn')) {
+    var tabNavBtnActive = tabNav.querySelector('.tab-nav__btn.is-active');
+    tabNavBtnActive.classList.remove('is-active');
+  
+    current.classList.add('is-active');
+  }
+
+});
+
+
+
+$(".face").not(":first").hide();
+$(".services .tab-nav__btn").click(function() {
+	$(".face").hide().eq($(this).index()).fadeIn();
+	$(".face").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");

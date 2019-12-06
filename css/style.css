@@ -106,14 +106,15 @@ img#logo{
 	cursor: pointer;
 }
 
-/* ЗАГОЛОВКИ ДЛЯ ПЕРВОГО СЛАЙДА*/
+/* ЗАГОЛОВОК ДЛЯ ПЕРВОГО СЛАЙДА*/
 .title_header{
-	border: 0.1rem #fff solid;
+	border: 0.1rem #124e8c solid;
 	position: relative;
-	margin-top: -38rem;
+	margin-top: -35rem;
+	background: rgba(255, 255, 255, 0.5);
 }
 .title_header h1{
-	color: #fff;
+	color: #124e8c;
 	font-weight: lighter;
 	font-size: 4rem;
 	text-align: center;
@@ -240,13 +241,14 @@ img#logo{
 	background-position: center 0rem;
 }
 .title_slider{
-	border: 0.1rem #fff solid;
+	border: 0.1rem #124e8c solid;
+	background: rgba(255, 255, 255, 0.5);
 	position: relative;
 	width: 80%;
 	margin: 0 0 10rem auto;
 }
 .title_slider h2{
-	color: #fff;
+	color: #124e8c;
 	font-weight: lighter;
 	font-size: 2.3rem;
 	text-align: center;
@@ -272,7 +274,7 @@ img#logo{
 	margin: -30rem auto 0 0;
 }
 .butt_clothes .for_center{
-	width: 40%;
+	width: 33%;
 }
 .butt_clothes{
 	margin-bottom: 12rem;
@@ -298,7 +300,8 @@ img#logo{
 }
 .paper{
 	width: 42%;
-	margin: 10rem auto 10rem auto;
+	position: relative;
+	margin: 100rem auto 10rem auto;
 }
 .butt_paper .for_center{
 	width: 30%;
@@ -335,19 +338,153 @@ img#logo{
 /* УСЛУГИ */
 .services{
 	background: #f2f2f2;
+	min-height: 100rem;
 }
 
+/* ФИЗ. ИЛИ ЮР. ЛИЦО */
+.tab-nav {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  max-width: 100%;
+  background: #124e8c;
+  position: relative;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+.tab-nav::before {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  top: 1.4rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-top: 0.3rem solid #fff;
+  border-left: 0.3rem solid #fff;
+  transform: rotate(45deg);
+}
 
+.tab-nav.is-active::before {
+  transform: rotate(-135deg);
+  top: 0.8rem;
+}
 
+.tab-nav__btn {
+  display: none;
+  background: none;
+  border: 0;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
 
+.tab-nav__btn.is-active {
+  display: block;
+  order: -1;
+  background: #198fcb;
+  border-radius: 1.45rem;
+  font-weight: 600;
+}
+.tab-nav.is-active .tab-nav__btn {
+  display: block;
+}
 
+/* САМИ УСЛУГИ ДЛЯ ЛИЦ */
 
-
-
-
-
-
-
+/* ВАЖНЫЕ */
+.main_services{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+}
+.main_service{
+	width: 75%;
+	height: 33rem;
+	margin-bottom: 1.5rem;
+	border: 0.3rem #124e8c solid;
+}
+.main_service:hover .bg_service .img_overlay{
+	background: none;
+	transition: 1s;
+}
+.onn_j{
+	margin-left: auto;
+}
+.bg_service{
+	height: 67%;
+	background: url(../img/SERVICES/MAIN/1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.img_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 175, 247, 0.35);
+}
+.title_and_learn_more{
+	border-top: 0.3rem #124e8c solid;
+	background: #fff;
+	height: 33%;
+	text-align: center;
+}
+.title_and_learn_more h3{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.9rem;
+	line-height: 1.9rem;
+	color: #124e8c;
+	margin: 0.8rem auto 1.5rem auto;
+}
+.title_and_learn_more a{
+	font-size: 1.7rem;
+	text-decoration: none;
+	background: #69b245;
+	padding: 0.6rem 2rem;
+	border-radius: 13.5rem;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.title_and_learn_more a:hover{
+	font-size: 1.8rem;
+	background: #124e8c;
+}
+.images_on_clothes{
+	background: url(../img/SERVICES/MAIN/2.jpg);
+	background-position: center bottom;
+}
+.souvenirs{
+	background: url(../img/SERVICES/MAIN/3.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.polygraphy{
+	background: url(../img/SERVICES/MAIN/4.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.large_formats{
+	background: url(../img/SERVICES/MAIN/5.jpg);
+	background-position: center bottom;
+}
+.sequins{
+	background: url(../img/SERVICES/MAIN/6.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.for_small_screen_once{
+		margin-bottom: 0rem;
+}
 
 
 
@@ -425,6 +562,7 @@ img#logo{
 	.title_header{
 	margin-top: -50rem;
 }
+	.title_header,
 	.title_slider{
 	padding: 1rem;
 }
@@ -478,7 +616,7 @@ img#logo{
 	margin: 5rem 0;
 }
 	.first_screen{
-		width: 100%;
+	width: 100%;
 	}
 	.title_slider h2{
 	font-size: 3rem;
@@ -551,6 +689,27 @@ img#logo{
 		width: 70%;
 		margin: 0 auto;
 	}
+	.about_us h2,
+	.services h2,
+	.advantages h2,
+	.contacts h2,
+	.detail_services h2{
+	text-align: center;
+}
+	.tab-nav {
+  	width: 40%;
+  }
+  	.onn_j{
+	margin-left: auto;
+	margin-right: auto;
+}
+	.main_service{
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.for_small_screen_once{
+		margin-bottom: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 620px){
@@ -558,11 +717,11 @@ img#logo{
 		font-size: 6.5px;
 	}
 	.clothes{
-	width: 90%;
-	margin: -50rem auto 0 auto;
+		width: 90%;
+		margin: -50rem auto 0 auto;
 }
 	.butt_clothes .for_center{
-	width: 70%;
+		width: 70%;
 }
 	.butt_paper .for_center{
 		width: 75%;
@@ -574,9 +733,6 @@ img#logo{
 	}
 	.for_center{
 	width: 80%;
-}
-	.title_header{
-	border: 0rem;
 }
 	.title_header h1{
 	font-size: 3.6rem;
@@ -603,6 +759,9 @@ img#logo{
 	.butt_paper .for_center{
 		width: 100%;
 	}
+	.tab-nav {
+  	width: 50%;
+  }
 }
 
 
