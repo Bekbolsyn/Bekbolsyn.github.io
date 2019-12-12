@@ -339,6 +339,7 @@ img#logo{
 .services{
 	background: #f2f2f2;
 	min-height: 100rem;
+	padding-bottom: 4.5rem;
 }
 
 /* ФИЗ. ИЛИ ЮР. ЛИЦО */
@@ -405,7 +406,8 @@ img#logo{
 	margin-bottom: 1.5rem;
 	border: 0.3rem #124e8c solid;
 }
-.main_service:hover .bg_service .img_overlay{
+.main_service:hover .bg_service .img_overlay,
+.other_service:hover .bg_service_other .img_overlay{
 	background: none;
 	transition: 1s;
 }
@@ -486,6 +488,112 @@ img#logo{
 		margin-bottom: 0rem;
 }
 
+/* ОСТАЛЬНЫЕ */
+.first_row,
+.second_row,
+.third_row,
+.fourth_row{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.other_service{
+	width: 23%;
+	height: 25rem;
+	margin-bottom: 1.5rem;
+}
+.bg_service_other{
+	height: 65%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.other{
+	height: 35%
+}
+.other h3{
+	font-weight: 500;
+	font-size: 1.8rem;
+	margin: 1rem auto 1.3rem auto;
+}
+.other a{
+	font-size: 1.5rem;
+}
+.other a:hover{
+	font-size: 1.8rem;
+	background: #124e8c;
+}
+.documents{
+	background: url(../img/SERVICES/OTHER/1.jpg);
+}
+.photo_printing{
+	background: url(../img/SERVICES/OTHER/2.jpg);
+}
+.vignette{
+	background: url(../img/SERVICES/OTHER/3.jpg);
+}
+.calendar{
+	background: url(../img/SERVICES/OTHER/4.jpg);
+}
+.cutaway{
+	background: url(../img/SERVICES/OTHER/5.jpg);
+}
+.diploma{
+	background: url(../img/SERVICES/OTHER/6.jpg);
+}
+.baguette{
+	background: url(../img/SERVICES/OTHER/7.jpg);
+}
+.designer{
+	background: url(../img/SERVICES/OTHER/8.jpg);
+}
+.monument{
+	background: url(../img/SERVICES/OTHER/9.jpg);
+}
+.lazer{
+	background: url(../img/SERVICES/OTHER/10.jpg);
+}
+.business{
+	background: url(../img/SERVICES/OTHER/11.jpg);
+}
+.lamination{
+	background: url(../img/SERVICES/OTHER/12.jpg);
+}
+.wedding{
+	background: url(../img/SERVICES/OTHER/13.jpg);
+}
+.flag{
+	background: url(../img/SERVICES/OTHER/14.jpg);
+}
+.cassette{
+	background: url(../img/SERVICES/OTHER/15.jpg);
+}
+.banner{
+	background: url(../img/SERVICES/OTHER/16.jpg);
+}
+.documents,
+.photo_printing,
+.vignette,
+.calendar,
+.cutaway,
+.diploma,
+.baguette,
+.designer,
+.monument,
+.lazer,
+.business,
+.lamination,
+.wedding,
+.flag,
+.cassette,
+.banner{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
 
 
 
@@ -710,6 +818,17 @@ img#logo{
 	.for_small_screen_once{
 		margin-bottom: 1.5rem;
 	}
+	.first_row,
+	.second_row,
+	.third_row,
+	.fourth_row{
+	flex-wrap: wrap;
+}
+	.other_service{
+	width: 45%;
+	height: 25rem;
+	margin-bottom: 2rem;
+}
 }
 
 @media screen and (max-width: 620px){
