@@ -441,6 +441,9 @@ img#logo{
 	color: #124e8c;
 	margin: 0.8rem auto 1.5rem auto;
 }
+.title_and_learn_more h3 span{
+	color: #ff0000;
+}
 .title_and_learn_more a{
 	font-size: 1.7rem;
 	text-decoration: none;
@@ -595,13 +598,136 @@ img#logo{
 	-webkit-background-size: cover;
 }
 
+/* ПРИЗЫВ К ЗВОНКУ */
+.call{
+	background-image: url(../img/CALL/1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	border-top: #023b56 0.5rem solid;
+}
+.call h2{
+	text-align: center;
+	font-size: 3.3rem;
+	font-weight: 600;
+	margin-top: 4rem;
+	margin-bottom: 0.8rem;
+	text-transform: uppercase;
+	color: #023b56;	
+}
+.call p{
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	color: #023b56;	
+}
+.call_numbers{
+	margin-bottom: 3.5rem;
+}
+.for_pos_call{
+	width: 60%;
+}
+.call_one{
+	margin-left: auto;
+}
+.call_two{
+	margin-right: auto;
+}
+.for_pos_call .numb_two{
+	margin-top: 0;
+}
+.for_pos_call .pic_sale{
+	color: #fff;
+	text-align: center;
+}
 
-
-
-
-
-
-
+/* ПРЕИМУЩЕСТВА */
+.advantages{
+	background: #124e8c;
+	padding-bottom: 3.5rem;
+}
+.advantages h2{
+	color: #fff;	
+}
+.advantages .line_for_titles{
+	background: #fff;
+}
+.wallrapper_for_advantages{
+	background: #ef4e5d;
+	padding: 2.5rem 0;
+	margin-top: 0.5rem;
+	margin-bottom: 3rem;
+}
+.advant_numb{
+	padding: 0.7rem 0;
+}
+.advant_numb h1{
+	font-size: 7.2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 7.4rem;
+}
+.advant_numb h2{
+	font-size: 2.1rem;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.lines_advant{
+	border-left: 0.2rem #fff solid;
+	border-right: 0.2rem #fff solid;
+}
+.wallrapper_icon{
+	width: 50%;
+	margin: 0 auto;
+}
+.icon_for_advantage{
+	border: #ef4e5d 0.4rem solid;
+	text-align: center;
+	max-width: 100%;
+	width: 16rem;
+	height: 16rem;
+	line-height: 15.5rem;
+	border-radius: 16rem;
+}
+.icon_for_advantage img{
+	width: 7.5rem;
+}
+.order_advant{
+	font-size: 1.7rem;
+	color: #fff;
+	background: #ef4e5d;
+	padding: 0.2rem 1.1rem;
+	border-radius: 10rem;
+	position: absolute;
+	top: 2rem;
+}
+.advantage{
+	margin-bottom: 2.5rem;
+}
+.advantage h3{
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin: 1.5rem 0;
+}
+.advantage p{
+	font-size: 1.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.8rem;
+	font-weight: 300;
+}
+.advantage p span{
+	font-weight: 600;
+}
 
 
 
@@ -711,6 +837,19 @@ img#logo{
 }
 	.about_us #work{
 	width: 75%;
+}	
+	.call_one,
+	.call_two{
+	margin: 0 auto;
+}
+	.call_numbers{
+	margin-bottom: 2rem;
+}
+	.for_pos_call{
+	width: 50%;
+}
+	.wallrapper_icon{
+	width: 60%;
 }
 }
 @media screen and (max-width: 808px){
@@ -829,6 +968,18 @@ img#logo{
 	height: 25rem;
 	margin-bottom: 2rem;
 }
+	.call_numbers{
+	margin-bottom: 1.5rem;
+}
+	.advant_numb{
+	padding: 1rem 0;
+}
+	.lines_advant{
+	border-left: 0;
+	border-right: 0;
+	border-top: 0.2rem #fff solid;
+	border-bottom: 0.2rem #fff solid;
+}
 }
 
 @media screen and (max-width: 620px){
@@ -846,6 +997,20 @@ img#logo{
 		width: 75%;
 	}
 }
+
+@media screen and (max-width: 575px){
+	html{
+		font-size: 6.5px;
+	}
+	.wallrapper_icon{
+		width: 20%;
+	}
+	.advantage p{
+	width: 60%;
+	margin: 0 auto;
+}
+}
+
 @media screen and (max-width: 493px){
 	html{
 		font-size: 6px;
@@ -870,6 +1035,9 @@ img#logo{
 	.butt_paper .for_center{
 	width: 90%;
 }
+	.wallrapper_icon{
+		width: 30%;
+	}
 }
 @media screen and (max-width: 332px){
 	.for_center{
@@ -881,65 +1049,11 @@ img#logo{
 	.tab-nav {
   	width: 50%;
   }
+
+	.wallrapper_icon{
+		width: 40%;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -992,126 +1106,6 @@ img#logo{
 
 
 /*
-.services{
-	background-color: #124e8c;
-	margin-top: 4rem;
-}
-.all{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap
-}
-.all .wrap_ser{
-	flex-basis: 17.5rem;
-	height: auto;
-	position: relative;
-}
-.all .log_s{
-	display: flex;
-	width: 100%;
-	height: 15rem;
-}
-.services img{
-	margin: auto;
-}
-.all .titl_s a{
-	text-decoration: none;
-	color: #fff;
-	font-weight: 600;
-	font-size: 2rem;
-	line-height: 1.2;
-	border-bottom: 0.1px solid #fff;
-	width: 100%;
-}
-.all .titl_s a:hover{
-	border-bottom: 0px;
-}
-.all h3{
-	text-align: center;
-	margin-bottom: auto;
-	height: 8rem;
-}
-.order{
-	height: 7rem;
-	text-align: center;
-}
-.order a{
-	text-decoration: none;
-	background-color: #124e8c;
-	font-size: 2.1rem;
-	color: #fff;
-	border-radius: 2rem;
-	font-weight: 600;
-	padding: 0.5rem 1.5rem;
-	border: solid 0.2rem #fff;
-}
-.order a:hover{
-	color: #124e8c;
-	background-color: #fff;
-	font-size: 2.3rem;
-	transition: 0.7s;
-}
-.end_all{
-	display: flex;
-	justify-content: space-around;
-	width: 50%;
-	margin: auto;
-	flex-wrap: wrap;
-}
-.end_all .wrap_ser{
-	flex-basis: 25rem;
-}
-.call{
-	padding-bottom: 4rem;
-	background-image: url(../img/BG-call.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	margin: 0.5rem auto;
-}
-.call p{
-	text-align: center;
-	font-size: 2.3rem;
-	line-height: 2.7rem;
-	margin-top: 4rem;
-	margin-bottom: 2rem;
-	color: #fff;
-}
-.call p.info{
-	color: #000;
-	text-align: center;
-	font-size: 1.6rem;
-	margin-top: 2rem;
-	margin-bottom: 0rem;
-	line-height: 1.1;
-}
-.call p span{
-	font-weight: 600;
-}
-.call form{
-	margin-top: 0;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-.call input[type="tel"]{
-	width: 40%;
-	font-size: 3rem;
-	padding: 0.7rem 0rem 1.3rem 1.3rem;
-	height: 7.5rem;
-}
-.call .submit_head{
-	width: 40%;
-	height: 7.5rem;
-	border-radius: 1.7rem;
-	border: 0.4rem solid #fff;
-	background-color: #124e8c;
-	color: #fff;
-	font-size: 3rem;
-	text-transform: uppercase;
-	font-weight: 700;
-}
 .advantages{
 	background-image: url(../img/BG-advantages.jpg);
 	background-position: center center;
