@@ -16,7 +16,8 @@ header{
 .services h2,
 .advantages h2,
 .contacts h2,
-.detail_services h2{
+.detail_services h2,
+.examples_of_works h2{
 	font-size: 3.6rem;
 	font-weight: 600;
 	margin-top: 4rem;
@@ -729,6 +730,84 @@ img#logo{
 	font-weight: 600;
 }
 
+/* ПРИМЕРЫ РАБОТ */
+.examples_of_works{
+	background: #f2f2f2;
+	height: 100rem;
+}
+.example{
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 2.5rem;
+}
+.example h3{
+	text-transform: uppercase;
+	border: #124e8c 0.2rem solid;
+	text-align: center;
+	font-size: 2.4rem;
+	color: #124e8c;
+	font-weight: 600;
+	padding: 2rem 0;
+	background: #fff;
+}
+.exsamp_print_clothes,
+.exsamp_print_clothes_2,
+.exsamp_print_clothes_3,
+.exsamp_print_clothes_4,
+.exsamp_print_clothes_5,
+.exsamp_print_clothes_6,
+.exsamp_print_clothes_7,
+.exsamp_print_clothes_8,
+.exsamp_print_clothes_9,
+.exsamp_print_cups,
+.exsamp_print_cups_2,
+.exsamp_print_cups_3,
+.exsamp_print_cups_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	height: 45rem;
+}
+.exsamp_print_clothes_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/2.jpg);
+}
+.exsamp_print_clothes_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/3.jpg);
+}
+.exsamp_print_clothes_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/4.jpg);
+}
+.exsamp_print_clothes_5{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/5.jpg);
+}
+.exsamp_print_clothes_6{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/6.jpg);
+}
+.exsamp_print_clothes_7{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/7.jpg);
+}
+.exsamp_print_clothes_8{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/8.jpg);
+}
+.exsamp_print_clothes_9{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/9.jpg);
+}
+.exsamp_print_cups{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/1.jpg);
+}
+.exsamp_print_cups_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/2.jpg);
+}
+.exsamp_print_cups_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/3.jpg);
+}
+.exsamp_print_cups_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/4.jpg);
+}
+
+
 
 
 
@@ -851,6 +930,9 @@ img#logo{
 	.wallrapper_icon{
 	width: 60%;
 }
+	.example{
+		width: 95%;
+	}
 }
 @media screen and (max-width: 808px){
 	html{
@@ -1106,51 +1188,6 @@ img#logo{
 
 
 /*
-.advantages{
-	background-image: url(../img/BG-advantages.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-}
-.adapt_advan{
- 	display: flex;
- 	flex-wrap: wrap;
- 	justify-content: center;
-}
-.advantages p{
-	font-size: 2rem;
-	line-height: 1.1;
-}
-.advantages p span{
-	color: #124e8c;
-	font-weight: 600;
-}
-.advantages .log_cl{
-	margin: auto 1rem;
-}
-.time,
-.quality,
-.staff,
-.list,
-.clock{
-	display: flex;
-	align-items: center;
-	border: 0.2rem #124e8c solid;
-	border-radius: 1.8rem;
-	height: 13rem;
-	margin: 0 auto;
-	margin-bottom: 3rem;
-	background-color: #fff;
-	flex-basis: 55rem;
-}
-.clock{
-	margin-bottom: 4rem;
-	flex-basis: 70rem;
-}
-.advantages .clock .log_cl{
-	margin: auto 2rem;
-}
 .contacts h2{
 	background-color: #124e8c;
 	margin: 0 auto;
