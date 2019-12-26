@@ -112,7 +112,7 @@ img#logo{
 	border: 0.1rem #124e8c solid;
 	position: relative;
 	margin-top: -35rem;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.75);
 }
 .title_header h1{
 	color: #124e8c;
@@ -121,6 +121,7 @@ img#logo{
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 1.1;
+	font-weight: 500;
 }
 .title_header h1 span{
 	font-weight: 600;
@@ -243,7 +244,7 @@ img#logo{
 }
 .title_slider{
 	border: 0.1rem #124e8c solid;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.8);
 	position: relative;
 	width: 80%;
 	margin: 0 0 10rem auto;
@@ -255,9 +256,10 @@ img#logo{
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 1.1;
+	font-weight: 600;
 }
 .title_slider h2 span{
-	font-weight: 600;
+	font-weight: 700;
 }
 /* ВТОРОЙ СЛАЙД */
 .paint{
@@ -600,7 +602,8 @@ img#logo{
 }
 
 /* ПРИЗЫВ К ЗВОНКУ */
-.call{
+.call,
+.useful{
 	background-image: url(../img/CALL/1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -608,7 +611,8 @@ img#logo{
 	-webkit-background-size: cover;
 	border-top: #023b56 0.5rem solid;
 }
-.call h2{
+.call h2,
+.useful h2{
 	text-align: center;
 	font-size: 3.3rem;
 	font-weight: 600;
@@ -617,7 +621,8 @@ img#logo{
 	text-transform: uppercase;
 	color: #023b56;	
 }
-.call p{
+.call p,
+.useful p{
 	text-align: center;
 	font-size: 2rem;
 	margin-bottom: 2rem;
@@ -635,12 +640,21 @@ img#logo{
 .call_two{
 	margin-right: auto;
 }
-.for_pos_call .numb_two{
+.for_pos_call .numb_two,
+.for_pos_call .price{
 	margin-top: 0;
 }
 .for_pos_call .pic_sale{
 	color: #fff;
 	text-align: center;
+}
+
+/* БЛОК ДЛЯ СКАЧИВАНИЙ ДОКУМЕНТОВ */
+.useful{
+	border-bottom: #023b56 0.5rem solid;
+}
+.useful p span{
+	font-weight: 600;
 }
 
 /* ПРЕИМУЩЕСТВА */
@@ -733,7 +747,8 @@ img#logo{
 /* ПРИМЕРЫ РАБОТ */
 .examples_of_works{
 	background: #f2f2f2;
-	height: 100rem;
+	min-height: 100rem;
+	padding-bottom: 3.5rem;
 }
 .example{
 	width: 85%;
@@ -762,7 +777,22 @@ img#logo{
 .exsamp_print_cups,
 .exsamp_print_cups_2,
 .exsamp_print_cups_3,
-.exsamp_print_cups_4{
+.exsamp_print_cups_4,
+.exsamp_printed_material,
+.exsamp_printed_material_2,
+.exsamp_printed_material_3,
+.exsamp_printed_material_4,
+.exsamp_printed_material_5,
+.exsamp_printed_material_6,
+.exsamp_cutaway,
+.exsamp_cutaway_2,
+.exsamp_cutaway_3,
+.exsamp_print_on_canvas,
+.exsamp_print_on_canvas_2,
+.exsamp_print_on_canvas_3,
+.exsamp_print_on_canvas_4,
+.exsamp_passport_photo,
+.exsamp_passport_photo_2{
 	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -806,9 +836,57 @@ img#logo{
 .exsamp_print_cups_4{
 	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/4.jpg);
 }
+.exsamp_printed_material{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/1.jpg);
+}
+.exsamp_printed_material_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/2.jpg);
+}
+.exsamp_printed_material_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/3.jpg);
+}
+.exsamp_printed_material_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/4.jpg);
+}
+.exsamp_printed_material_5{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/5.jpg);
+}
+.exsamp_printed_material_6{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/6.jpg);
+}
+.exsamp_cutaway{
+	background-image: url(../img/EXAMPLES_OF_WORKS/CUTAWAYS/1.jpg);
+}
+.exsamp_cutaway_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/CUTAWAYS/2.jpg);
+}
+.exsamp_cutaway_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/CUTAWAYS/3.jpg);
+}
+.exsamp_print_on_canvas{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/1.jpg);
+}
+.exsamp_print_on_canvas_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/2.jpg);
+}
+.exsamp_print_on_canvas_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/3.jpg);
+}
+.exsamp_print_on_canvas_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/4.jpg);
+}
+.exsamp_passport_photo{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PASSPORT_PHOTO/1.jpg);
+}
+.exsamp_passport_photo_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PASSPORT_PHOTO/2.jpg);
+}
 
-
-
+/* НАШИ КЛИЕНТЫ */
+.wallrapper_for_logo_customer{
+	margin: 0 auto;
+	width: 75%;
+}
 
 
 
