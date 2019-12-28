@@ -17,7 +17,8 @@ header{
 .advantages h2,
 .contacts h2,
 .detail_services h2,
-.examples_of_works h2{
+.examples_of_works h2,
+.our_customers h2{
 	font-size: 3.6rem;
 	font-weight: 600;
 	margin-top: 4rem;
@@ -883,16 +884,110 @@ img#logo{
 }
 
 /* НАШИ КЛИЕНТЫ */
+.all_customers{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2rem;
+	flex-wrap: wrap
+}
 .wallrapper_for_logo_customer{
 	margin: 0 auto;
-	width: 75%;
+	width: 70%;
+	margin-bottom: 2rem;
+}
+.dns{
+	width: 100%;
+}
+.millstream{
+	width: 50%;
+}
+.autokrepezh{
+	width: 100%;
+}
+.gorizont{
+	width: 60%;
+}
+.bambini{
+	width: 45%;
+}
+.probel{
+	width: 80%;
 }
 
-
-
-
-
-
+/* КОНТАКТЫ */
+.contacts{
+	background: #f2f2f2;
+	padding-bottom: 5.5rem;
+}
+.information{
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.contact{
+	border-bottom: #124e8c solid 0.5rem;
+	display: flex;
+	height: 5rem;
+	border-radius:5rem;
+	background: #fff;
+	width: 100%;
+	transition: 1s;
+	margin-bottom: 0.5rem;
+}
+.contact h4{
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	text-align: center;
+	color: #124e8c;
+	width: 80%;
+}
+.contact a{
+	font-size: 2.4rem;
+	line-height: 4.6rem;
+	text-align: center;
+	color: #124e8c;
+	width: 80%;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 1s;
+}
+.for_links:hover{
+	background: #124e8c;
+}
+.contact a:hover{
+	color: #fff;
+}
+.pic_contact{
+	width: 20%;
+	background-color: #124e8c;
+	border-radius: 5rem;
+	line-height: 5rem;
+	font-size: 2.5rem;
+	height: 5rem;
+	color: #fff;
+	text-align: center;
+}
+.contact .mail{
+	font-size: 2.5rem;
+	line-height: 4.5rem;
+}
+.contact .clock{
+	font-size: 2.1rem;
+	line-height: 2rem;
+}
+.contact .clock span{
+	font-weight: 600;
+}
+.map{
+	border: 0.2rem solid #124e8c;
+	margin-top: 4.5rem;
+}
+.address br{
+	display: none;
+}
 
 
 
@@ -924,6 +1019,12 @@ img#logo{
 @media screen and (max-width: 1376px){
 	html{
 		font-size: 8.5px;
+	}
+	.contact{
+		margin-bottom: 1.5rem;
+	}
+	.map{
+		margin-top: 3rem;
 	}
 }
 @media screen and (max-width: 1206px){
@@ -1011,6 +1112,16 @@ img#logo{
 	.example{
 		width: 95%;
 	}
+	.wallrapper_for_logo_customer{
+	margin-bottom: 3rem;
+}
+	.information{
+		width: 60%;
+	}
+	.contact h4{
+	font-size: 2rem;
+	line-height: 4.5rem;
+}
 }
 @media screen and (max-width: 808px){
 	html{
@@ -1100,7 +1211,9 @@ img#logo{
 	.services h2,
 	.advantages h2,
 	.contacts h2,
-	.detail_services h2{
+	.detail_services h2,
+	.examples_of_works h2,
+	.our_customers h2{
 	text-align: center;
 }
 	.tab-nav {
@@ -1140,6 +1253,12 @@ img#logo{
 	border-top: 0.2rem #fff solid;
 	border-bottom: 0.2rem #fff solid;
 }
+	.probel{
+	width: 100%;
+}
+	.information{
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 620px){
@@ -1168,6 +1287,12 @@ img#logo{
 	.advantage p{
 	width: 60%;
 	margin: 0 auto;
+}
+	.custom_adapt{
+		width: 50%;
+	}
+	.wallrapper_for_logo_customer{
+	margin-bottom: 5rem;
 }
 }
 
@@ -1198,6 +1323,22 @@ img#logo{
 	.wallrapper_icon{
 		width: 30%;
 	}
+	.for_pos_call{
+	width: 70%;
+}
+	.information{
+		width: 100%;
+	}
+	.contact h4{
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	text-align: center;
+	color: #124e8c;
+	width: 80%;
+}
+	.address br{
+	display: block;
+}
 }
 @media screen and (max-width: 332px){
 	.for_center{
