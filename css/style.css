@@ -989,13 +989,89 @@ img#logo{
 	display: none;
 }
 
-
-
-
-
-
-
-
+/* ФУТЕР */
+footer{
+	background-color: #124e8c;
+	color: #fff;
+}
+.footer_contacts h4,
+.footer_menu h4,
+.connection h4{
+	font-size: 1.9rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 4.5rem;
+	margin-bottom: 0.8rem;
+}
+.footer_titles{
+	background-color: #fff;
+	height: 0.1rem;
+	margin-bottom: 2.5rem;
+}
+.footer_contacts i{
+	display: block;
+}
+.footer_contact{
+	display: flex;
+}
+.pic_footer_contact{
+	font-size: 1.6rem;
+}
+.footer_contact h5,
+.footer_contact a{
+	font-size: 1.6rem;
+	margin-left: 0.5rem;
+	line-height: 1.8rem;
+}
+.footer_contact a{
+	color: #fff;
+}
+.footer_menu a{
+	display: block;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 2rem;
+	text-decoration: none;
+}
+.footer_menu a:hover{
+	font-weight: 600;
+}
+.connection h4{
+	text-align: right;
+}
+.footer_connect{
+	display: flex;
+	justify-content: flex-end;
+}
+.footer_connect a{
+	color: #fff;
+	font-size: 2.5rem;
+	border: #fff solid 0.2rem;
+	border-radius: 5rem;
+	padding: 0.5rem;
+	margin-left: 1.5rem;
+	transition: 1s;
+}
+.footer_connect a:hover{
+	background-color: #fff;
+	color: #124e8c;
+}
+.copyright{
+	font-size: 2rem;
+	margin-top: 2.5rem;
+}
+.developer{
+	font-size: 1.8rem;
+	line-height: 2rem;
+	text-align: right;
+	margin-top: 2.5rem;
+}
+.developer a{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
 
 
 
@@ -1259,6 +1335,19 @@ img#logo{
 	.information{
 		width: 80%;
 	}
+	.footer_menu{
+	text-align: center;
+}
+	.footer_contact,
+	.footer_connect{
+	justify-content: center;
+}	
+	.footer_contacts h4,
+	.connection h4,
+	.copyright,
+	.developer{
+	text-align: center;
+}
 }
 
 @media screen and (max-width: 620px){
@@ -1407,38 +1496,6 @@ img#logo{
 
 
 /*
-.contacts h2{
-	background-color: #124e8c;
-	margin: 0 auto;
-	height: 10rem;
-	line-height: 10rem;
-}
-.wrap_over{
-	position: relative;
-}
-.facts{
-	border: 0.3rem solid #124e8c;
-	border-radius: 1.8rem;
-	text-align: center;
-	padding: 1.5rem;
-	background-color: #fff;
-	position: absolute;
-	top: -65rem;
-}
-.facts h3{
-	color: #124e8c;
-	font-size: 2.1rem;
-	text-transform: uppercase;
-	margin-top: 1rem;
-}
-.facts p{
-	font-size: 2.5rem;
-	line-height: 1.1;
-}
-.facts a{
-	font-size: 3.5rem;
-	color: #124e8c;
-}
 footer{
 	background-color: #124e8c;
 	color: #fff;
