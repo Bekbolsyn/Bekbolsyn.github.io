@@ -1,0 +1,1575 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+}
+body{
+	font-family: 'Exo 2', sans-serif;
+}
+header{
+	max-height: 100%;
+	height: 100%;
+}
+.about_us h2,
+.services h2,
+.advantages h2,
+.contacts h2,
+.detail_services h2,
+.examples_of_works h2,
+.our_customers h2{
+	font-size: 3.6rem;
+	font-weight: 600;
+	margin-top: 4rem;
+	text-transform: uppercase;
+	color: #124e8c;	
+	margin-bottom: 1.5rem;
+}
+.line_for_titles,
+.line_for_text{
+	width: 100%;
+	height: 0.2rem;
+	background: #124e8c;
+	margin-bottom: 2.5rem;
+}
+
+ /* МЕНЮ */
+.hat_site{;
+	position: absolute;
+  	z-index: 15;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-pack: center;
+  	width: 100%;
+  	top: 2rem;
+}
+nav .wrapper{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu{
+	font-size: 2rem;
+	height: 11.5vh;
+	display: flex;
+	align-items: center;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu li{
+	margin: 0 1rem;
+}
+.menu li:nth-child(1){
+	margin-left: 0;
+}
+.menu li:nth-child(6){
+	margin-left: 0;
+}
+.menu li:nth-child(3){
+	margin-right: 5rem;
+}
+.menu li:nth-child(5){
+	margin-left: 5rem;
+}
+.menu li a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	line-height: 2rem;
+	text-align: center;
+	padding: 1rem 1.5rem;
+	transition: 0.8s;
+	border-radius: 1.7rem;
+}
+.menu a:hover{
+	color: #066b9f;
+	background-color: #fff;
+	text-decoration: none;
+}
+img#logo{
+	height: 8rem;
+}
+.menuToggle{
+	font-size: 4rem;
+	display: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* ЗАГОЛОВОК ДЛЯ ПЕРВОГО СЛАЙДА*/
+.title_header{
+	border: 0.1rem #124e8c solid;
+	position: relative;
+	margin-top: -35rem;
+	background: rgba(255, 255, 255, 0.75);
+}
+.title_header h1{
+	color: #124e8c;
+	font-weight: lighter;
+	font-size: 4rem;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.1;
+	font-weight: 500;
+}
+.title_header h1 span{
+	font-weight: 600;
+}
+
+/*КНОПКИ СКАЧАТЬ И НОМЕРА*/
+.download,
+.numbers{
+	margin-bottom: 10rem;
+	display: flex;
+	justify-content: center;
+}
+.for_center{
+	width: 60%;
+}
+.sale,
+.price,
+.numb_one,
+.numb_two,
+.find_more{
+	border-bottom: #124e8c solid 0.5rem;
+	display: flex;
+	height: 5rem;
+	border-radius:5rem;
+	background: #fff;
+	width: 100%;
+	transition: 1s;
+}
+.sale:hover,
+.price:hover{
+	background: #124e8c;
+}
+.numb_one:hover,
+.numb_two:hover{
+	background: #69b245;
+}
+.sale a,
+.price a,
+.numb_one a,
+.numb_two a,
+.find_more a{
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	color: #124e8c;
+	text-decoration: none;
+	margin: 0 auto;
+	transition: 1s;
+}
+.sale a:hover,
+.price a:hover,
+.numb_one a:hover,
+.numb_two a:hover{
+	color: #fff;
+}
+.pic_sale{
+	width: 20%;
+	background-color: #124e8c;
+	border-radius: 5rem;
+	line-height: 5rem;
+	font-size: 2.1rem;
+	height: 5rem;
+}
+.price,
+.numb_two{
+	margin-top: 0.6rem;
+}
+.find_more{
+	margin-bottom: 0.6rem;
+}
+.numb_one,
+.numb_two{
+	border-bottom: #69b245 solid 0.5rem;
+}
+.find_more{
+	border-bottom: #2c7c05 solid 0.5rem;
+	background: #69b245;
+}
+.find_more a{
+	color: #fff;
+	font-weight: 600;
+}
+.find_more:hover{
+	background: #2c7c05;
+	border: solid 0.3rem #fff;
+}
+.numbers .pic_sale {
+	background-color: #69b245;
+}
+.numb_one a,
+.numb_two a{
+	font-size: 2.4rem;
+	font-weight: 700;
+	line-height: 4.3rem;
+	color: #47863e;
+}
+
+/* КНОПКИ СЛАЙДЕРА */
+.carousel-indicators li{
+	box-sizing: content-box;
+}
+/* ДЛЯ ВСЕХ СЛАЙДОВ */
+.for_bg_1,
+.for_bg_2,
+.for_bg_3,
+.for_bg_4,
+.for_bg_5{
+	background-image: url(../img/FIRST-SCREEN/3.jpg);
+	background-position: center -10rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	height: 100vh;
+}
+/* ЗАГОЛОВКИ ДЛЯ ОСТАЛЬНЫХ СЛАЙДОВ */
+.for_bg_1{
+	background-image: url(../img/FIRST-SCREEN/1.jpg);
+	background-position: center 0rem;
+}
+.title_slider{
+	border: 0.1rem #124e8c solid;
+	background: rgba(255, 255, 255, 0.8);
+	position: relative;
+	width: 80%;
+	margin: 0 0 10rem auto;
+}
+.title_slider h2{
+	color: #124e8c;
+	font-weight: lighter;
+	font-size: 2.3rem;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.1;
+	font-weight: 600;
+}
+.title_slider h2 span{
+	font-weight: 700;
+}
+/* ВТОРОЙ СЛАЙД */
+.paint{
+	margin-top: 5rem;
+}
+.for_bg_2{
+	background-image: url(../img/FIRST-SCREEN/2.jpg);
+	background-position: center 0rem;
+}
+
+/* ТРЕТИЙ СЛАЙД */
+.clothes{
+	width: 42%;
+	position: absolute;
+	margin: -30rem auto 0 0;
+}
+.butt_clothes .for_center{
+	width: 33%;
+}
+.butt_clothes{
+	margin-bottom: 12rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* ЧЕТВЁРТЫЙ СЛАЙД */
+.for_bg_4{
+	background-image: url(../img/FIRST-SCREEN/4.jpg);
+	background-position: center 0rem;
+}
+.butt_cups{
+	justify-content: flex-start;
+	margin-bottom: 10rem;
+	margin-top: 3rem;
+}
+
+/* ПЯТЫЙ СЛАЙД */
+.for_bg_5{
+	background-image: url(../img/FIRST-SCREEN/5.jpg);
+	background-position: center 0rem;
+}
+.paper{
+	width: 42%;
+	position: relative;
+	margin: 100rem auto 10rem auto;
+}
+.butt_paper .for_center{
+	width: 30%;
+}
+
+/* О НАС */
+.about_us{
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	color: #023b56;
+}
+.about_us .for_work_image{
+	text-align: center;
+}
+.about_us #work{
+	width: 95%;
+}
+.line_for_text{
+	background: #c9c1c2;
+	margin-top: 2.5rem;
+}
+.about_us ul{
+	margin-left: 3rem;
+}
+.about_us ul span{
+	font-weight: 600;
+	color: #023b56;
+}
+.about_us ul li{
+	list-style-type: disc;
+	color: #066b9f;
+}
+
+/* УСЛУГИ */
+.services{
+	background: #f2f2f2;
+	min-height: 100rem;
+	padding-bottom: 4.5rem;
+}
+
+/* ФИЗ. ИЛИ ЮР. ЛИЦО */
+.tab-nav {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  max-width: 100%;
+  background: #124e8c;
+  position: relative;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+.tab-nav::before {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  top: 1.4rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-top: 0.3rem solid #fff;
+  border-left: 0.3rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.tab-nav.is-active::before {
+  transform: rotate(-135deg);
+  top: 0.8rem;
+}
+
+.tab-nav__btn {
+  display: none;
+  background: none;
+  border: 0;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.tab-nav__btn.is-active {
+  display: block;
+  order: -1;
+  background: #198fcb;
+  border-radius: 1.45rem;
+  font-weight: 600;
+}
+.tab-nav.is-active .tab-nav__btn {
+  display: block;
+}
+
+/* САМИ УСЛУГИ ДЛЯ ЛИЦ */
+
+/* ВАЖНЫЕ */
+.main_services{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+}
+.main_service{
+	width: 75%;
+	height: 33rem;
+	margin-bottom: 1.5rem;
+	border: 0.3rem #124e8c solid;
+}
+.main_service:hover .bg_service .img_overlay,
+.other_service:hover .bg_service_other .img_overlay{
+	background: none;
+	transition: 1s;
+}
+.onn_j{
+	margin-left: auto;
+}
+.bg_service{
+	height: 67%;
+	background: url(../img/SERVICES/MAIN/1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.img_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 175, 247, 0.35);
+}
+.title_and_learn_more{
+	border-top: 0.3rem #124e8c solid;
+	background: #fff;
+	height: 33%;
+	text-align: center;
+}
+.title_and_learn_more h3{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.9rem;
+	line-height: 1.9rem;
+	color: #124e8c;
+	margin: 0.8rem auto 1.5rem auto;
+}
+.title_and_learn_more h3 span{
+	color: #ff0000;
+}
+.title_and_learn_more a{
+	font-size: 1.7rem;
+	text-decoration: none;
+	background: #69b245;
+	padding: 0.6rem 2rem;
+	border-radius: 13.5rem;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.title_and_learn_more a:hover{
+	font-size: 1.8rem;
+	background: #124e8c;
+}
+.images_on_clothes{
+	background: url(../img/SERVICES/MAIN/2.jpg);
+	background-position: center bottom;
+}
+.souvenirs{
+	background: url(../img/SERVICES/MAIN/3.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.polygraphy{
+	background: url(../img/SERVICES/MAIN/4.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.large_formats{
+	background: url(../img/SERVICES/MAIN/5.jpg);
+	background-position: center bottom;
+}
+.sequins{
+	background: url(../img/SERVICES/MAIN/6.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.for_small_screen_once{
+		margin-bottom: 0rem;
+}
+
+/* ОСТАЛЬНЫЕ */
+.first_row,
+.second_row,
+.third_row,
+.fourth_row{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.other_service{
+	width: 23%;
+	height: 25rem;
+	margin-bottom: 1.5rem;
+}
+.bg_service_other{
+	height: 65%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.other{
+	height: 35%
+}
+.other h3{
+	font-weight: 500;
+	font-size: 1.8rem;
+	margin: 1rem auto 1.3rem auto;
+}
+.other a{
+	font-size: 1.5rem;
+}
+.other a:hover{
+	font-size: 1.8rem;
+	background: #124e8c;
+}
+.documents{
+	background: url(../img/SERVICES/OTHER/1.jpg);
+}
+.photo_printing{
+	background: url(../img/SERVICES/OTHER/2.jpg);
+}
+.vignette{
+	background: url(../img/SERVICES/OTHER/3.jpg);
+}
+.calendar{
+	background: url(../img/SERVICES/OTHER/4.jpg);
+}
+.cutaway{
+	background: url(../img/SERVICES/OTHER/5.jpg);
+}
+.diploma{
+	background: url(../img/SERVICES/OTHER/6.jpg);
+}
+.baguette{
+	background: url(../img/SERVICES/OTHER/7.jpg);
+}
+.designer{
+	background: url(../img/SERVICES/OTHER/8.jpg);
+}
+.monument{
+	background: url(../img/SERVICES/OTHER/9.jpg);
+}
+.lazer{
+	background: url(../img/SERVICES/OTHER/10.jpg);
+}
+.business{
+	background: url(../img/SERVICES/OTHER/11.jpg);
+}
+.lamination{
+	background: url(../img/SERVICES/OTHER/12.jpg);
+}
+.wedding{
+	background: url(../img/SERVICES/OTHER/13.jpg);
+}
+.flag{
+	background: url(../img/SERVICES/OTHER/14.jpg);
+}
+.cassette{
+	background: url(../img/SERVICES/OTHER/15.jpg);
+}
+.banner{
+	background: url(../img/SERVICES/OTHER/16.jpg);
+}
+.documents,
+.photo_printing,
+.vignette,
+.calendar,
+.cutaway,
+.diploma,
+.baguette,
+.designer,
+.monument,
+.lazer,
+.business,
+.lamination,
+.wedding,
+.flag,
+.cassette,
+.banner{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+/* ПРИЗЫВ К ЗВОНКУ */
+.call,
+.useful{
+	background-image: url(../img/CALL/1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	border-top: #023b56 0.5rem solid;
+}
+.call h2,
+.useful h2{
+	text-align: center;
+	font-size: 3.3rem;
+	font-weight: 600;
+	margin-top: 4rem;
+	margin-bottom: 0.8rem;
+	text-transform: uppercase;
+	color: #023b56;	
+}
+.call p,
+.useful p{
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	color: #023b56;	
+}
+.call_numbers{
+	margin-bottom: 3.5rem;
+}
+.for_pos_call{
+	width: 60%;
+}
+.call_one{
+	margin-left: auto;
+}
+.call_two{
+	margin-right: auto;
+}
+.for_pos_call .numb_two,
+.for_pos_call .price{
+	margin-top: 0;
+}
+.for_pos_call .pic_sale{
+	color: #fff;
+	text-align: center;
+}
+
+/* БЛОК ДЛЯ СКАЧИВАНИЙ ДОКУМЕНТОВ */
+.useful{
+	border-bottom: #023b56 0.5rem solid;
+}
+.useful p span{
+	font-weight: 600;
+}
+
+/* ПРЕИМУЩЕСТВА */
+.advantages{
+	background: #124e8c;
+	padding-bottom: 3.5rem;
+}
+.advantages h2{
+	color: #fff;	
+}
+.advantages .line_for_titles{
+	background: #fff;
+}
+.wallrapper_for_advantages{
+	background: #ef4e5d;
+	padding: 2.5rem 0;
+	margin-top: 0.5rem;
+	margin-bottom: 3rem;
+}
+.advant_numb{
+	padding: 0.7rem 0;
+}
+.advant_numb h1{
+	font-size: 7.2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 7.4rem;
+}
+.advant_numb h2{
+	font-size: 2.1rem;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.lines_advant{
+	border-left: 0.2rem #fff solid;
+	border-right: 0.2rem #fff solid;
+}
+.wallrapper_icon{
+	width: 50%;
+	margin: 0 auto;
+}
+.icon_for_advantage{
+	border: #ef4e5d 0.4rem solid;
+	text-align: center;
+	max-width: 100%;
+	width: 16rem;
+	height: 16rem;
+	line-height: 15.5rem;
+	border-radius: 16rem;
+}
+.icon_for_advantage img{
+	width: 7.5rem;
+}
+.order_advant{
+	font-size: 1.7rem;
+	color: #fff;
+	background: #ef4e5d;
+	padding: 0.2rem 1.1rem;
+	border-radius: 10rem;
+	position: absolute;
+	top: 2rem;
+}
+.advantage{
+	margin-bottom: 2.5rem;
+}
+.advantage h3{
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	margin: 1.5rem 0;
+}
+.advantage p{
+	font-size: 1.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.8rem;
+	font-weight: 300;
+}
+.advantage p span{
+	font-weight: 600;
+}
+
+/* ПРИМЕРЫ РАБОТ */
+.examples_of_works{
+	background: #f2f2f2;
+	min-height: 100rem;
+	padding-bottom: 3.5rem;
+}
+.example{
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 2.5rem;
+}
+.example h3{
+	text-transform: uppercase;
+	border: #124e8c 0.2rem solid;
+	text-align: center;
+	font-size: 2.4rem;
+	color: #124e8c;
+	font-weight: 600;
+	padding: 2rem 0;
+	background: #fff;
+}
+.exsamp_print_clothes,
+.exsamp_print_clothes_2,
+.exsamp_print_clothes_3,
+.exsamp_print_clothes_4,
+.exsamp_print_clothes_5,
+.exsamp_print_clothes_6,
+.exsamp_print_clothes_7,
+.exsamp_print_clothes_8,
+.exsamp_print_clothes_9,
+.exsamp_print_cups,
+.exsamp_print_cups_2,
+.exsamp_print_cups_3,
+.exsamp_print_cups_4,
+.exsamp_printed_material,
+.exsamp_printed_material_2,
+.exsamp_printed_material_3,
+.exsamp_printed_material_4,
+.exsamp_printed_material_5,
+.exsamp_printed_material_6,
+.exsamp_cutaway,
+.exsamp_cutaway_2,
+.exsamp_cutaway_3,
+.exsamp_print_on_canvas,
+.exsamp_print_on_canvas_2,
+.exsamp_print_on_canvas_3,
+.exsamp_print_on_canvas_4,
+.exsamp_passport_photo,
+.exsamp_passport_photo_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	height: 45rem;
+}
+.exsamp_print_clothes_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/2.jpg);
+}
+.exsamp_print_clothes_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/3.jpg);
+}
+.exsamp_print_clothes_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/4.jpg);
+}
+.exsamp_print_clothes_5{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/5.jpg);
+}
+.exsamp_print_clothes_6{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/6.jpg);
+}
+.exsamp_print_clothes_7{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/7.jpg);
+}
+.exsamp_print_clothes_8{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/8.jpg);
+}
+.exsamp_print_clothes_9{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CLOTHING/9.jpg);
+}
+.exsamp_print_cups{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/1.jpg);
+}
+.exsamp_print_cups_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/2.jpg);
+}
+.exsamp_print_cups_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/3.jpg);
+}
+.exsamp_print_cups_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/IMG_ON_CUPS/4.jpg);
+}
+.exsamp_printed_material{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/1.jpg);
+}
+.exsamp_printed_material_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/2.jpg);
+}
+.exsamp_printed_material_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/3.jpg);
+}
+.exsamp_printed_material_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/4.jpg);
+}
+.exsamp_printed_material_5{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/5.jpg);
+}
+.exsamp_printed_material_6{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINTED_MATERIAL/6.jpg);
+}
+.exsamp_cutaway{
+	background-image: url(../img/EXAMPLES_OF_WORKS/CUTAWAYS/1.jpg);
+}
+.exsamp_cutaway_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/CUTAWAYS/2.jpg);
+}
+.exsamp_cutaway_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/CUTAWAYS/3.jpg);
+}
+.exsamp_print_on_canvas{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/1.jpg);
+}
+.exsamp_print_on_canvas_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/2.jpg);
+}
+.exsamp_print_on_canvas_3{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/3.jpg);
+}
+.exsamp_print_on_canvas_4{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PRINT_ON_CANVAS/4.jpg);
+}
+.exsamp_passport_photo{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PASSPORT_PHOTO/1.jpg);
+}
+.exsamp_passport_photo_2{
+	background-image: url(../img/EXAMPLES_OF_WORKS/PASSPORT_PHOTO/2.jpg);
+}
+
+/* НАШИ КЛИЕНТЫ */
+.all_customers{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2rem;
+	flex-wrap: wrap
+}
+.wallrapper_for_logo_customer{
+	margin: 0 auto;
+	width: 70%;
+	margin-bottom: 2rem;
+}
+.dns{
+	width: 100%;
+}
+.millstream{
+	width: 50%;
+}
+.autokrepezh{
+	width: 100%;
+}
+.gorizont{
+	width: 60%;
+}
+.bambini{
+	width: 45%;
+}
+.probel{
+	width: 80%;
+}
+
+/* КОНТАКТЫ */
+.contacts{
+	background: #f2f2f2;
+	padding-bottom: 5.5rem;
+}
+.information{
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.contact{
+	border-bottom: #124e8c solid 0.5rem;
+	display: flex;
+	height: 5rem;
+	border-radius:5rem;
+	background: #fff;
+	width: 100%;
+	transition: 1s;
+	margin-bottom: 0.5rem;
+}
+.contact h4{
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	text-align: center;
+	color: #124e8c;
+	width: 80%;
+}
+.contact a{
+	font-size: 2.4rem;
+	line-height: 4.6rem;
+	text-align: center;
+	color: #124e8c;
+	width: 80%;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 1s;
+}
+.for_links:hover{
+	background: #124e8c;
+}
+.contact a:hover{
+	color: #fff;
+}
+.pic_contact{
+	width: 20%;
+	background-color: #124e8c;
+	border-radius: 5rem;
+	line-height: 5rem;
+	font-size: 2.5rem;
+	height: 5rem;
+	color: #fff;
+	text-align: center;
+}
+.contact .mail{
+	font-size: 2.5rem;
+	line-height: 4.5rem;
+}
+.contact .clock{
+	font-size: 2.1rem;
+	line-height: 2rem;
+}
+.contact .clock span{
+	font-weight: 600;
+}
+.map{
+	border: 0.2rem solid #124e8c;
+	margin-top: 4.5rem;
+}
+.address br{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1569px){
+	html{
+		font-size: 9px;
+}
+	.clothes{
+	margin: -28rem auto 0 0;
+}
+	.butt_clothes{
+	margin-bottom: 8rem;
+}
+	.paper{
+	margin-top: 100rem;
+}
+}
+@media screen and (max-width: 1376px){
+	html{
+		font-size: 8.5px;
+	}
+	.contact{
+		margin-bottom: 1.5rem;
+	}
+	.map{
+		margin-top: 3rem;
+	}
+}
+@media screen and (max-width: 1206px){
+	html{
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 1138px){
+	html{
+		font-size: 7px;
+	}
+	.for_center{
+	width: 75%;
+}
+	.for_bg_3,
+	.for_bg_4{
+	background-position: center center;
+}
+}
+@media screen and (max-width: 1000px){
+	html{
+		font-size: 7px;
+	}
+	.for_center{
+	width: 75%;
+}
+	.title_header{
+	margin-top: -50rem;
+}
+	.title_header,
+	.title_slider{
+	padding: 1rem;
+}
+	.title_header h1 br,
+	.title_slider h2 br{
+ 	display: none;
+}
+	.title_slider h2{
+	font-size: 2.5rem;
+	}
+	.clothes{
+	width: 60%;
+	position: relative;
+	margin: -40rem auto 0 auto;
+}
+	.butt_clothes .for_center{
+	width: 60%;
+}
+	.butt_clothes{
+	justify-content: center;
+}
+	.paper{
+		width: 70%
+	}
+	.butt_paper .for_center{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.butt_cups .for_center{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.cups{
+	width: 80%;
+	margin: 0 auto 15rem auto;
+}
+	.about_us #work{
+	width: 75%;
+}	
+	.call_one,
+	.call_two{
+	margin: 0 auto;
+}
+	.call_numbers{
+	margin-bottom: 2rem;
+}
+	.for_pos_call{
+	width: 50%;
+}
+	.wallrapper_icon{
+	width: 60%;
+}
+	.example{
+		width: 95%;
+	}
+	.wallrapper_for_logo_customer{
+	margin-bottom: 3rem;
+}
+	.information{
+		width: 60%;
+	}
+	.contact h4{
+	font-size: 2rem;
+	line-height: 4.5rem;
+}
+}
+@media screen and (max-width: 808px){
+	html{
+		font-size: 7px;
+	}
+	.for_center{
+	width: 70%;
+}
+	.title_header{
+	margin: 5rem 0;
+}
+	.first_screen{
+	width: 100%;
+	}
+	.title_slider h2{
+	font-size: 3rem;
+	}
+	.clothes{
+	width: 80%;
+	margin: -45rem auto 0 auto;
+}
+	.butt_clothes .for_center{
+	width: 65%;
+}
+}
+@media screen and (max-width: 767px){
+	html{
+		font-size: 7px;
+	}
+	.for_center{
+	width: 85%;
+}
+	.title_header{
+	margin-top: 5rem;
+}
+	.menu img{
+		display: none;
+	}
+	.menu{
+		display: none;
+		position: absolute;
+		background: #124e8c;
+		width: 100%;
+		height: 42vh;
+		left: 0;
+		margin-top: 8rem;
+	}
+	.menuToggle{
+		display: inline-block;
+		text-align: center;
+		margin-top: 1rem;
+	}
+	.menu li{
+		float: none;
+		margin: 0;
+
+	}
+	.menu li:nth-child(3){
+	margin-right: 0rem;
+}
+	.menu li:nth-child(5){
+	margin-left: 0rem;
+}
+	.menu li a{
+		width: 100%;
+		height: 7vh;
+		line-height: 3.5vh;
+		font-size: 2.3rem;
+		padding: 2rem;
+		border-radius: 0rem;
+}
+	.menu li a br{
+		display: none;
+	}
+	.download,
+	.numbers{
+	margin-bottom: 4rem;
+}
+	.for_center{
+	width: 60%;
+}
+	.butt_cups .for_center{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.about_us h2,
+	.services h2,
+	.advantages h2,
+	.contacts h2,
+	.detail_services h2,
+	.examples_of_works h2,
+	.our_customers h2{
+	text-align: center;
+}
+	.tab-nav {
+  	width: 40%;
+  }
+  	.onn_j{
+	margin-left: auto;
+	margin-right: auto;
+}
+	.main_service{
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.for_small_screen_once{
+		margin-bottom: 1.5rem;
+	}
+	.first_row,
+	.second_row,
+	.third_row,
+	.fourth_row{
+	flex-wrap: wrap;
+}
+	.other_service{
+	width: 45%;
+	height: 25rem;
+	margin-bottom: 2rem;
+}
+	.call_numbers{
+	margin-bottom: 1.5rem;
+}
+	.advant_numb{
+	padding: 1rem 0;
+}
+	.lines_advant{
+	border-left: 0;
+	border-right: 0;
+	border-top: 0.2rem #fff solid;
+	border-bottom: 0.2rem #fff solid;
+}
+	.probel{
+	width: 100%;
+}
+	.information{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 620px){
+	html{
+		font-size: 6.5px;
+	}
+	.clothes{
+		width: 90%;
+		margin: -50rem auto 0 auto;
+}
+	.butt_clothes .for_center{
+		width: 70%;
+}
+	.butt_paper .for_center{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 575px){
+	html{
+		font-size: 6.5px;
+	}
+	.wallrapper_icon{
+		width: 20%;
+	}
+	.advantage p{
+	width: 60%;
+	margin: 0 auto;
+}
+	.custom_adapt{
+		width: 50%;
+	}
+	.wallrapper_for_logo_customer{
+	margin-bottom: 5rem;
+}
+}
+
+@media screen and (max-width: 493px){
+	html{
+		font-size: 6px;
+	}
+	.for_center{
+	width: 80%;
+}
+	.title_header h1{
+	font-size: 3.6rem;
+}
+	.title_header{
+	margin-top: -60rem;
+}
+	.title_slider{
+	width: 100%;
+}
+	.clothes{
+	margin: -60rem auto 0 auto;
+}
+	.butt_clothes .for_center,
+	.butt_cups .for_center,
+	.butt_paper .for_center{
+	width: 90%;
+}
+	.wallrapper_icon{
+		width: 30%;
+	}
+	.for_pos_call{
+	width: 70%;
+}
+	.information{
+		width: 100%;
+	}
+	.contact h4{
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	text-align: center;
+	color: #124e8c;
+	width: 80%;
+}
+	.address br{
+	display: block;
+}
+}
+@media screen and (max-width: 332px){
+	.for_center{
+	width: 100%;
+}
+	.butt_paper .for_center{
+		width: 100%;
+	}
+	.tab-nav {
+  	width: 50%;
+  }
+
+	.wallrapper_icon{
+		width: 40%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.contacts h2{
+	background-color: #124e8c;
+	margin: 0 auto;
+	height: 10rem;
+	line-height: 10rem;
+}
+.wrap_over{
+	position: relative;
+}
+.facts{
+	border: 0.3rem solid #124e8c;
+	border-radius: 1.8rem;
+	text-align: center;
+	padding: 1.5rem;
+	background-color: #fff;
+	position: absolute;
+	top: -65rem;
+}
+.facts h3{
+	color: #124e8c;
+	font-size: 2.1rem;
+	text-transform: uppercase;
+	margin-top: 1rem;
+}
+.facts p{
+	font-size: 2.5rem;
+	line-height: 1.1;
+}
+.facts a{
+	font-size: 3.5rem;
+	color: #124e8c;
+}
+footer{
+	background-color: #124e8c;
+	color: #fff;
+}
+.copy_develop{
+	margin-top: 10rem;
+}
+footer h3{
+	font-size: 2.1rem;
+	font-weight: 600;
+	line-height: 1.4;
+	text-align: center;
+	margin: 7rem auto;
+}
+footer h3 span{
+	font-weight: 300;
+}
+footer h3 a{
+	color: #fff;
+	text-decoration: underline;
+	padding: 0.5rem;
+}
+footer h3 a:hover{
+	background-color: #fff;
+	color: #124e8c;
+	border-radius: 1rem;
+	cursor: pointer;
+	text-decoration: none;
+}
+.foot_menu{
+	border: 0.1rem #fff solid;
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 7rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.foot_menu a{
+	color: #fff;
+	font-size: 2.1rem;
+	line-height: 1.4;
+}
+.foot_menu a:hover{
+	font-weight: 600;
+	text-decoration: none;
+}
+.foot_facts{
+	border: 0.1rem #fff solid;
+	width: 90%;
+	margin-top: 7rem;
+	text-align: center;
+	font-size: 1.8rem;
+	padding-top: 2.8rem;
+	padding-bottom: 2.8rem;
+	margin-left: auto;
+}
+.foot_facts a{
+	color: #fff;
+	font-size: 2.5rem;
+}
+.serv{
+	border-top: 0.5rem #124e8c solid;
+	margin: 4rem 0 0.5rem 0;
+}
+.item .active{
+	color: #fff;
+}
+.detail_services .active{
+	background: #124e8c; 
+}
+.detail_services h2{
+	color: #124e8c;
+}
+.item{
+	border: #124e8c solid 0.05rem;
+	display: flex;
+	height: 3.5rem;
+	border-radius: 0.6rem;
+	margin-bottom: 0.2rem;
+	color: #fff;
+}
+.item p{
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 3.5rem;
+	margin-left: 0.7rem;
+	color: #124e8c;
+	cursor: pointer;
+}
+.pic_item{
+	width: 16%;
+	background-color: #124e8c;
+	border-radius: 0.6rem;
+	text-align: center;
+	line-height: 3.2rem;
+}
+.description{
+	text-align: center;
+	margin-top: 4rem;
+}
+.description h3{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: #124e8c;
+	margin-bottom: 1.5rem;
+}
+.description img{
+	border: 0.3rem solid #124e8c;
+	margin-bottom: 1.5rem;
+	width: 40rem;
+}
+.description p{
+	font-size: 1.7rem;
+	line-height: 1.8rem;
+	text-align: left;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+.price_des{
+	display: flex;
+	justify-content: space-between;
+}
+.price_des p{
+	text-align: center;
+}
+.description span{
+	color: #124e8c;
+	font-weight: 500;
+}
+.price_des span{
+	text-transform: uppercase;
+}*/
