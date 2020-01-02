@@ -10,12 +10,12 @@ $(function(){
 
 
 
-$(".des_item").not(":first").hide();
-$(".detail_services .item").click(function() {
-	$(".detail_services .item").removeClass("active").eq($(this).index()).addClass("active");
-	$(".des_item").hide().eq($(this).index()).fadeIn();
-	$(".item p").removeClass("active").eq($(this).index()).addClass("active");
-	$(".des_item").hide().eq($(this).index()).fadeIn()
+$(".descript_item").not(":first").hide();
+$(".description_all_services .item").click(function() {
+	$(".description_all_services .item").removeClass("active").eq($(this).index()).addClass("active");
+	$(".descript_item").hide().eq($(this).index()).fadeIn();
+	$(".item h6").removeClass("active").eq($(this).index()).addClass("active");
+	$(".descript_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
 	$(document).ready(function(){

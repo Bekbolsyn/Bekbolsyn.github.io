@@ -1,0 +1,130 @@
+.wrapper_for_wrp .wrapper{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.description_all_services{
+	min-height: 70rem;
+}
+.items,
+.description{
+	margin-top: 3.5rem;
+}
+.item{
+	border: #124e8c solid 0.05rem;
+	display: flex;
+	height: 3.5rem;
+	border-radius: 0.6rem;
+	margin-bottom: 0.2rem;
+}
+.item h6{
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 3.5rem;
+	margin-left: 0.7rem;
+	color: #124e8c;
+	cursor: pointer;
+}
+.pic_item{
+	width: 16%;
+	background-color: #124e8c;
+	border-radius: 0.6rem;
+	text-align: center;
+	line-height: 3.2rem;
+}
+.description_all_services .active{
+	background: #124e8c;
+	color: #fff;
+}
+.descript_item h3{
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	color: #124e8c;
+	font-weight: 600;
+	margin-bottom: 0.7rem;
+	text-align: center;
+}
+.descript_line,
+.price_line{
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	height: 0.15rem;
+}
+.descript_photo{
+	border: 0.2rem solid #124e8c;
+	width: 30rem;
+	float: left;
+	margin-right: 1rem;
+}
+.descript_item p{
+	text-align: justify;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+	color: #023b56;
+	margin-top: 3.5rem;
+}
+
+.descript_item h4{
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	padding-top: 3rem;
+	color: #69b245;
+	font-weight: 600;
+	margin-bottom: 0.7rem;
+	text-align: center;
+	clear: both;
+}
+.price_line{
+	width: 35%;
+	background: #2c7c05;
+}
+.price_photo{
+	width: 100%;
+}
+.much_photo{
+	width: 50%;
+	float: left;
+}
+p.without_photo,
+p.list_decript{
+	margin-top: 0rem;
+}
+p.without_photo span,
+p.list_decript span{
+	color: #69b245;
+	font-weight: 600;
+}
+p.list_decript{
+	text-align: center;
+}
+.price_description{
+	width: 50%;
+	float: left;
+	margin-bottom: 2rem;
+}
+.example_descript{
+	width: 80%;
+	margin: 0 auto;
+}
+@media screen and (max-width: 767px){
+	.pic_item{
+		width: 8%;
+	}
+}
+@media screen and (max-width: 400px){
+	.descript_item p{
+		clear: both;
+}
+	.descript_photo{
+		float: none;
+	}
+	.wallrapper_for_descript_photo{
+		width: 100%;
+		text-align: center;
+	}
+	.descript_line{
+		width: 80%;
+}
+}

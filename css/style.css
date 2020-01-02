@@ -18,7 +18,8 @@ header{
 .contacts h2,
 .detail_services h2,
 .examples_of_works h2,
-.our_customers h2{
+.our_customers h2,
+.description_all_services h2{
 	font-size: 3.6rem;
 	font-weight: 600;
 	margin-top: 4rem;
@@ -580,6 +581,15 @@ img#logo{
 .banner{
 	background: url(../img/SERVICES/OTHER/16.jpg);
 }
+.cutaway_your_face{
+	background: url(../img/SERVICES/MAIN/7.jpg);
+}
+.flyers{
+	background: url(../img/SERVICES/MAIN/8.jpg);
+}
+.sticker{
+	background: url(../img/SERVICES/MAIN/9.jpg);
+}
 .documents,
 .photo_printing,
 .vignette,
@@ -595,7 +605,10 @@ img#logo{
 .wedding,
 .flag,
 .cassette,
-.banner{
+.banner,
+.cutaway_your_face,
+.flyers,
+.sticker{
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1198,6 +1211,9 @@ footer{
 	font-size: 2rem;
 	line-height: 4.5rem;
 }
+	.tab-nav {
+  	width: 25%;
+  }
 }
 @media screen and (max-width: 808px){
 	html{
@@ -1437,196 +1453,11 @@ footer{
 		width: 100%;
 	}
 	.tab-nav {
-  	width: 50%;
+  	width: 60%;
   }
 
 	.wallrapper_icon{
 		width: 40%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-footer{
-	background-color: #124e8c;
-	color: #fff;
 }
-.copy_develop{
-	margin-top: 10rem;
-}
-footer h3{
-	font-size: 2.1rem;
-	font-weight: 600;
-	line-height: 1.4;
-	text-align: center;
-	margin: 7rem auto;
-}
-footer h3 span{
-	font-weight: 300;
-}
-footer h3 a{
-	color: #fff;
-	text-decoration: underline;
-	padding: 0.5rem;
-}
-footer h3 a:hover{
-	background-color: #fff;
-	color: #124e8c;
-	border-radius: 1rem;
-	cursor: pointer;
-	text-decoration: none;
-}
-.foot_menu{
-	border: 0.1rem #fff solid;
-	width: 85%;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	margin-top: 7rem;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-.foot_menu a{
-	color: #fff;
-	font-size: 2.1rem;
-	line-height: 1.4;
-}
-.foot_menu a:hover{
-	font-weight: 600;
-	text-decoration: none;
-}
-.foot_facts{
-	border: 0.1rem #fff solid;
-	width: 90%;
-	margin-top: 7rem;
-	text-align: center;
-	font-size: 1.8rem;
-	padding-top: 2.8rem;
-	padding-bottom: 2.8rem;
-	margin-left: auto;
-}
-.foot_facts a{
-	color: #fff;
-	font-size: 2.5rem;
-}
-.serv{
-	border-top: 0.5rem #124e8c solid;
-	margin: 4rem 0 0.5rem 0;
-}
-.item .active{
-	color: #fff;
-}
-.detail_services .active{
-	background: #124e8c; 
-}
-.detail_services h2{
-	color: #124e8c;
-}
-.item{
-	border: #124e8c solid 0.05rem;
-	display: flex;
-	height: 3.5rem;
-	border-radius: 0.6rem;
-	margin-bottom: 0.2rem;
-	color: #fff;
-}
-.item p{
-	font-size: 1.8rem;
-	font-weight: 700;
-	line-height: 3.5rem;
-	margin-left: 0.7rem;
-	color: #124e8c;
-	cursor: pointer;
-}
-.pic_item{
-	width: 16%;
-	background-color: #124e8c;
-	border-radius: 0.6rem;
-	text-align: center;
-	line-height: 3.2rem;
-}
-.description{
-	text-align: center;
-	margin-top: 4rem;
-}
-.description h3{
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	color: #124e8c;
-	margin-bottom: 1.5rem;
-}
-.description img{
-	border: 0.3rem solid #124e8c;
-	margin-bottom: 1.5rem;
-	width: 40rem;
-}
-.description p{
-	font-size: 1.7rem;
-	line-height: 1.8rem;
-	text-align: left;
-	font-weight: 400;
-	margin-bottom: 2rem;
-}
-.price_des{
-	display: flex;
-	justify-content: space-between;
-}
-.price_des p{
-	text-align: center;
-}
-.description span{
-	color: #124e8c;
-	font-weight: 500;
-}
-.price_des span{
-	text-transform: uppercase;
-}*/
