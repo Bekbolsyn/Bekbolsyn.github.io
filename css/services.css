@@ -4,7 +4,8 @@
 	justify-content: center;
 }
 .description_all_services{
-	min-height: 70rem;
+	min-height: 100rem;
+	padding-bottom: 6rem;
 }
 .items,
 .description{
